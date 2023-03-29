@@ -1,15 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-void wyswietlTablice(int n, int tab[])
-{
-    for(int i=0;i<n;i++)
-    {
-        printf("[%d]=%d\n",i, tab[i]);
-    }
-}
-
 int foo(int n)
 {
     int tab2[n];
