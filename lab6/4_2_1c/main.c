@@ -5,7 +5,7 @@ void foo(int n, int *tab)
 {
     for(int i=0;i<n;i++)
     {
-        *(tab+i) = 0;
+        *(tab+i) *=2;
     }
 }
 void wyswietlTablice(int n, int * tab)
