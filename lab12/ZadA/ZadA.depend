@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1684314773 source:c:\users\local\documents\github\psc5isi\lab12\zada\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
