@@ -10,6 +10,7 @@ struct element
 struct element * utworz()
 {
     struct element * wsk = malloc(sizeof(struct element));
+    wsk->next = NULL;
     return wsk;
 };
 
